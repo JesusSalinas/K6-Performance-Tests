@@ -19,4 +19,4 @@ The main aim of this project is...
 ## Dependencies
 * Install the HTML report ``npm install k6-html-reporter --save-dev``
 ## Reports
-To be able to see the report in HTML format run the next command: ``npm run html:report` once the execution has finished.
+To be able to see the report in HTML format run the next command: ``npm run html:report`` once the execution has finished.
