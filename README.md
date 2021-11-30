@@ -12,7 +12,7 @@ The main aim of this project is...
 * To have installed the ``v16.11.1`` node version or higher
 ## Setup
 * ``$ cd ../repository_folder``
-* ``$ git clone https://github.com/JesusSalinas/k6-performance-tests.git``
+* ``$ git clone https://github.com/JesusSalinas/K6-Performance-Tests.git``
 * For MacOS run ``$ brew intall k6``. For any other S.O. go to the next [link](https://k6.io/docs/getting-started/installation)
 * Install all the [Dependencies](#dependencies)
 * Finally, run: ``$ k6 run --config "./utils/config.json" --console-output "./logs/logs.log" ./scripts/script_name.js``
