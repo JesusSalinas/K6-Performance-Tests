@@ -1,0 +1,15 @@
+version: '3.9'
+services:
+  k6:
+    image: loadimpact/k6:latest
+    command: run /test.js
+    volumes:
+      - ./utils:/utils
+      - ./scripts:/scripts
+      - ./reports:/reports
+      - ./logs:/logs
+    environment:
+      - K6_API_URL=
+      - K6_ADMIN_USER=
+      - K6_ADMIN_PASS=
+      - K6_DOCKER=true
