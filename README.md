@@ -1,4 +1,4 @@
-# Client Services Performance Tests Suite
+# K6 Performance Tests 
 ## Table of contents
 * [Resume](#resume)
 * [Pre-requirements](#pre-requirements)
@@ -12,7 +12,7 @@ The main aim of this project is to
 * To have installed the ``v16.11.1`` node version or higher
 ## Setup
 * ``$ cd ../repository_folder``
-* ``$ git clone https://github.com/JesusSClara/performance.git``
+* ``$ git clone ...``
 * For MacOS run ``$ brew intall k6``. For any other S.O. go to the next [link](https://k6.io/docs/getting-started/installation)
 * Install all the [Dependencies](#dependencies)
 * Finally, run: ``$ k6 run --config "./utils/config.json" --console-output "./logs/logs.log" ./scripts/script_name.js``
