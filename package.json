@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "html:report": "node ./scripts/dashboard.js",
+    "k6": "k6 run --config './utils/config.json' --console-output './logs/logs.log' ./scripts/script.js"
+  },
   "devDependencies": {
     "k6-html-reporter": "^1.0.5"
   }

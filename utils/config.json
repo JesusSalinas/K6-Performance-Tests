@@ -1,0 +1,10 @@
+{
+    "scenarios": {
+      "sc1": {
+        "executor": "constant-vus",
+        "vus": "5",                           
+        "duration": "15s",                        
+        "gracefulStop": "0s"                              
+      }
+    }
+}
