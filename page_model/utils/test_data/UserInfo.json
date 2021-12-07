@@ -1,0 +1,17 @@
+[
+    {
+        "FIRSTNAME": "Test1",
+        "LASTNAME": "Lab1",
+        "ZIPCODE": "3100"
+    },
+    {
+        "FIRSTNAME": "Test2",
+        "LASTNAME": "Lab2",
+        "ZIPCODE": "3200"
+    },
+    {
+        "FIRSTNAME": "Test3",
+        "LASTNAME": "Lab3",
+        "ZIPCODE": "3300"
+    }
+]

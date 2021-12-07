@@ -1,4 +1,9 @@
-node_modules/*
+package-lock.json
+.env
+package.json
+node_modules/
+.testcaferc.json
+gulpfile.js 
+README.md
+reports/
 .vscode
-.DS_Store
-docker-compose.yml
