@@ -1,38 +1,5 @@
 {
-  "name": "workshop_testecafe",
-  "version": "1.0.0",
-  "description": "test cases suit for workshop ",
-  "main": "index.js",
-  "scripts": {
-    "gulp": "gulp run-testcafe-tests",
-    "test-all-chrome": "testcafe chrome ./page_model/tests --reporter json",
-    "test-all-chrome-headless": "testcafe chrome:headless ./page_model/tests --reporter json",
-    "test-all-safari": "testcafe safari ./page_model/tests --reporter json",
-    "test-all-safari-headless": "testcafe safari:headless ./page_model/tests --reporter json",
-    "test-all-firefox": "testcafe firefox ./page_model/tests --reporter json",
-    "test-all-firefox-headless": "testcafe firefox:headless ./page_model/tests --reporter json",
-    "test-all-browsers": "testcafe all ./page_model/tests --reporter json"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JesusSalinas/TestCafe.git"
-  },
-  "author": "Jesus Salinas",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JesusSalinas/TestCafe/issues"
-  },
-  "homepage": "https://github.com/JesusSalinas/TestCafe#readme",
-  "dependencies": {
-    "dotenv": "^8.6.0",
-    "gulp": "^4.0.2",
-    "testcafe-reporter-allure": "^1.0.5",
-    "testcafe-reporter-allure-custom": "^1.0.8",
-    "testcafe-reporter-allure-expanded": "^1.1.0",
-    "testcafe-reporter-json": "^2.2.0"
-  },
   "devDependencies": {
-    "gulp-testcafe": "^1.1.0",
-    "testcafe": "^1.17.1"
+    "k6-html-reporter": "^1.0.5"
   }
 }
