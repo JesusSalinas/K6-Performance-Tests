@@ -8,7 +8,7 @@ export default function() {
   url = new URL('https://api.todoist.com/rest/v1/projects');
   const res = http.get(url.toString(), params);
   check(res, { 'Status Response was 200': (r) => r.status == 200 });
-  console.log('[Cards] Response time was ' + String(res.timings.duration) + ' ms');
+  console.log('[Projects] Response time was ' + String(res.timings.duration) + ' ms');
   sleep(1);
 }
 
