@@ -1,0 +1,33 @@
+name: Performance Tests
+on:
+  push: 
+    branches:
+      - main
+jobs:
+  job_1:
+    name: K6 Execution
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Run k6 local test
+        uses: k6io/action@v0.2.0
+        with:
+          filename: ./scripts/script.js
+          flags: --config "./utils/config.json" --console-output "./logs/logs.log"
+        env: 
+          K6_TDO_TOKEN: ${{secrets.K6_TDO_TOKEN}}
+      - name: 'Installing Node...'
+        run: npm install
+      - name: 'Building HTML Report...'
+        run: 'npm run html:report'
+      - name: Uploading K6 Logs... 
+        uses: actions/upload-artifact@v2
+        with: 
+          name: logs
+          path: ./logs/logs.log
+      - name: Uploading HTML Report... 
+        uses: actions/upload-artifact@v2
+        with: 
+          name: report
+          path: ./reports/report.html
