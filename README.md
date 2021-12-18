@@ -6,7 +6,7 @@
 * [Dependencies](#dependencies)
 * [Reports](#reports)
 ## Resume
-The main aim of this project is to
+The main aim of this project is to share the K6 backbone and basic examples about how to implement K6 Performance Tests. We use the Todoist API as reference, you can find it in the following: [link](https://developer.todoist.com/guides/#developing-with-todoist)
 ## Pre-requirements
 * To have installed a node version [managment](https://github.com/nvm-sh/nvm)
 * To have installed the ``v16.11.1`` node version or higher
@@ -19,4 +19,4 @@ The main aim of this project is to
 ## Dependencies
 * Install the HTML report ``npm install k6-html-reporter --save-dev``
 ## Reports
-To be able to see the report in HTML format run the next command: ``npm run html:report` once the execution has finished.
+To be able to see the report in HTML format run the next command: ``npm run html:report`` once the execution has finished.
