@@ -20,3 +20,5 @@ The main aim of this project is to share the K6 backbone and basic examples abou
 * Install the HTML report ``npm install k6-html-reporter --save-dev``
 ## Reports
 To be able to see the report in HTML format run the next command: ``npm run html:report`` once the execution has finished.
+## Example
+<img width="1345" alt="k6" src="https://user-images.githubusercontent.com/92599376/146653158-de45cd0b-d00c-4faf-a3da-44c27502100f.png">
